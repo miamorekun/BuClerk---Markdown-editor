@@ -1,5 +1,5 @@
 export interface ThemePalette {
-    accent_light_background: string,
+    accent_background: string,
     accent: string,
     accent_light: string,
     success: string,
@@ -26,7 +26,7 @@ export interface ThemePalette {
 }
 
 export const themePaletteLight: ThemePalette = {
-    accent_light_background: "#F7F8FE",
+    accent_background: "#F7F8FE",
     accent: "#6172F3",
     accent_light: "#F1F6FF",
     success: "#32D583",
@@ -51,3 +51,7 @@ export const themePaletteLight: ThemePalette = {
     text_300: "#D7DADE",
     text_100: "#F7F8F8",
 }
+
+export const themePaletteDark: ThemePalette = Object.assign(themePaletteLight, {
+    accent_background: "#293056"
+})
