@@ -1,0 +1,21 @@
+body {
+  font-family: "Rubik-Regular", '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bc-app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
