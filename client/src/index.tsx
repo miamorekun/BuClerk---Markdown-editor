@@ -3,13 +3,19 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ThemeProvider} from '@mui/styles';
-import {themePaletteLight} from './theme';
+import {themeLight} from './customMuiThemes';
+import LocalizationProvider from '@mui/lab/LocalizationProvider';
+import DateAdapter from '@mui/lab/AdapterMoment';
+import "./index.scss"
+
 
 ReactDOM.render(
     <React.StrictMode>
-        <ThemeProvider theme={themePaletteLight}>
-            <App/>
-        </ThemeProvider>
+        <LocalizationProvider dateAdapter={DateAdapter}>
+            <ThemeProvider theme={themeLight}>
+                <App/>
+            </ThemeProvider>
+        </LocalizationProvider>
     </React.StrictMode>,
     document.getElementById('root')
 );
