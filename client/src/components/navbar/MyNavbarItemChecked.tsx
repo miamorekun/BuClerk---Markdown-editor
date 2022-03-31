@@ -1,16 +1,16 @@
 import React from 'react';
 import MyNavbarItem, {Props as MyNavbarItemProps} from "./MyNavbarItem"
 import MyRadio from "../radio/MyRadio";
-import {Link, useLocation} from "react-router-dom";
+import {Link, useLocation, useMatch} from "react-router-dom";
+import useActive from "./useActive";
 
 interface Props extends MyNavbarItemProps {
     to: string,
-    color?: string
+    color?: string,
 }
 
 const MyNavbarItemChecked: React.FC<Props> = ({color,to, ...rest}) => {
-    const {pathname} = useLocation()
-    const active = !!pathname.match(to)
+    const active = useActive(to)
 
     return (
         <Link to={to} className="d-block">

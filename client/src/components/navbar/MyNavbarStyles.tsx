@@ -4,7 +4,6 @@ import {Accordion, AccordionDetails, AccordionSummary, ThemeOptions} from "@mui/
 export const NavbarStyled = styled("div")({
     display: "flex",
     flexDirection: "column",
-    width: "310px !important",
     height: "100%",
     padding: 24,
 })

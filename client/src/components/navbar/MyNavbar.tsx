@@ -17,32 +17,32 @@ const MyNavbar: React.FC = () => {
     return (
         <NavbarStyled>
             <MySearch className="w-100"/>
-            <div className="mt-3 flex-grow-1 overflow-scroll">
+            <div style={{width:262}} className="mt-3 flex-grow-1 overflow-scroll">
                 <MyNavbarItem
                     icon={
                         <BsFillCalendarCheckFill size={18} color={theme.my.text_300}/>
                     }
                     title="All Notes"
-                    to="all-notes"
+                    to={`notes/all-notes`}
                 />
                 <MyNavbarItemMenu
                     icon={
                         <FaFolder size={18} color={theme.my.text_300}/>
                     }
                     title="Projects"
-                    to={"projects"}
+                    to={`notes/projects`}
                 >
                     <MyNavbarItemChecked
                         title="BuClerk TA"
-                        to="projects/project-1"
+                        to={`notes/projects/project-1`}
                     />
                     <MyNavbarItemChecked
                         title="BuClerk File Manager"
-                        to="projects/project-2"
+                        to={`notes/projects/project-2`}
                     />
                     <MyNavbarItemChecked
                         title="BuClerk Accounting 1"
-                        to="projects/project-3"
+                        to={`notes/projects/project-3`}
                     />
                 </MyNavbarItemMenu>
                 <MyNavbarItemMenu
@@ -50,26 +50,26 @@ const MyNavbar: React.FC = () => {
                         <BsFillPatchCheckFill size={18} color={theme.my.text_300}/>
                     }
                     title="Sort by Status"
-                    to={"status"}
+                    to={`notes/status`}
                 >
                     <MyNavbarItemChecked
                         title="Important"
-                        to={`status/${NoteStatuses.important}`}
+                        to={`notes/status/${NoteStatuses.important}`}
                         color={theme.my.tomato}
                     />
                     <MyNavbarItemChecked
                         title="Active"
-                        to={`status/${NoteStatuses.active}`}
+                        to={`notes/status/${NoteStatuses.active}`}
                         color={theme.my.warning}
                     />
                     <MyNavbarItemChecked
                         title="Completed"
-                        to={`status/${NoteStatuses.completed}`}
+                        to={`notes/status/${NoteStatuses.completed}`}
                         color={theme.my.success}
                     />
                     <MyNavbarItemChecked
                         title="On Hold"
-                        to={`status/${NoteStatuses.onHold}`}
+                        to={`notes/status/${NoteStatuses.onHold}`}
                         color={theme.my.text_550}
                     />
                 </MyNavbarItemMenu>
@@ -78,15 +78,19 @@ const MyNavbar: React.FC = () => {
                         <BsTagsFill size={18} color={theme.my.text_300}/>
                     }
                     title="Sort by Tags"
-                    to={"tags"}
+                    to={`notes/tags`}
                 >
                     <MyNavbarItemChecked
                         title="Java Script"
-                        to="tags/java-script"
+                        to={`notes/tags/java-script`}
                     />
                     <MyNavbarItemChecked
                         title="Css (SCSS) React"
-                        to="tags/css-scss-react"
+                        to={`notes/tags/css-react`}
+                    />
+                    <MyNavbarItemChecked
+                        title="Front-end"
+                        to={`notes/tags/front-end`}
                     />
                 </MyNavbarItemMenu>
                 <MyNavbarItem
@@ -94,7 +98,7 @@ const MyNavbar: React.FC = () => {
                         <FaTrash size={18} color={theme.my.text_300}/>
                     }
                     title="My Trash"
-                    to="my-trash"
+                    to="notes/trash"
                 />
             </div>
             <MyProfile/>

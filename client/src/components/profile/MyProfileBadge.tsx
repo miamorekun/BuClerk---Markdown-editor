@@ -28,10 +28,10 @@ const MyProfileBadge: React.FC = ({children}) => {
             badgeContent={
                 <IoSettingsSharp
                     size={18}
-                    color={pathname.match("/settings") ? theme.my.accent : theme.my.text_500}
+                    color={pathname.match("settings") ? theme.my.accent : theme.my.text_500}
                 />
             }
-            componentsProps={{badge: {onClick: () => navigate("/settings")}}}
+            componentsProps={{badge: {onClick: () => navigate("settings")}}}
         >
             {children}
         </Badge>

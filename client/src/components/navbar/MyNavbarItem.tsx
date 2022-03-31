@@ -2,6 +2,7 @@ import React from 'react';
 import {NavbarItemStyled} from "./MyNavbarStyles";
 import {IconType} from "react-icons/lib";
 import {Link, useLocation} from "react-router-dom";
+import useActive from "./useActive";
 
 export interface Props {
     icon?: JSX.Element,
@@ -11,12 +12,13 @@ export interface Props {
     defaultActive?: boolean
 }
 
-const MyNavbarItem: React.FC<Props> = ({to, defaultActive, title, icon, endIcon}) => {
-    const {pathname} = useLocation()
-    const active = defaultActive ? defaultActive : (to ? !!pathname.match(to) : false)
+export interface NavbarItemUsedActiveHookProps extends Props{
+    to: string,
+}
 
-    const jsx_element = (
-        <NavbarItemStyled className={active ? "active" : ""}>
+const MyNavbarItemPattern: React.FC<Props> = ({defaultActive, title, icon, endIcon}) => {
+    return (
+        <NavbarItemStyled className={defaultActive ? `active` : ``}>
             <div className="me-3 text-center" style={{width: 24}}>
                 {icon}
             </div>
@@ -30,15 +32,22 @@ const MyNavbarItem: React.FC<Props> = ({to, defaultActive, title, icon, endIcon}
             </div>
         </NavbarItemStyled>
     )
+}
 
+const MyNavbarItemUsedActiveHook: React.FC<NavbarItemUsedActiveHookProps> = ({to, ...rest}) => {
+    const active = useActive(to)
+    return <MyNavbarItemPattern {...rest} defaultActive={active}/>
+}
+
+const MyNavbarItem: React.FC<Props> = ({to, ...rest}) => {
     if (to) {
         return (
-            <Link to={to ? to : ""} className="w-100">
-                {jsx_element}
+            <Link to={to} className="w-100">
+               <MyNavbarItemUsedActiveHook to={to} {...rest}/>
             </Link>
         )
     } else {
-        return jsx_element
+        return <MyNavbarItemPattern {...rest}/>
     }
 };
 

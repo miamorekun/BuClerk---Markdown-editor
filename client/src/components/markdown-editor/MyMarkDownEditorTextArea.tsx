@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MySortByStatus = () => {
+const MyMarkDownEditorTextArea = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const MySortByStatus = () => {
     );
 };
 
-export default MySortByStatus;
+export default MyMarkDownEditorTextArea;

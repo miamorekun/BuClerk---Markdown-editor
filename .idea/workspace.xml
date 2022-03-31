@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7953393-bcff-412c-b4b3-b1a39ab1e73f" name="Default Changelist" comment="Modify: &quot;other dependencies&quot;">
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MyRoutes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemChecked.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemChecked.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteDatePicker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteDatePicker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNotePreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNotePreview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteStatus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteTags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNotesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNotesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/MyProfileBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/MyProfileBadge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyAllNotes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/MyAllNotes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyProjects.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MySortByStatus.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MySortByTags.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyTrash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/MyTrash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/search/MySearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/search/MySearch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/search/MySearchTextfield.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/search/MySearchTextfield.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/search/mySearchModel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss-modules/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss-modules/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss-modules/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss-modules/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="269EiFG3njpkb3ul0Ax19MZVMdK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/tags" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/tags" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client/src/components/search" />
+      <recent name="$PROJECT_DIR$/client/src/components/fields" />
+      <recent name="$PROJECT_DIR$/client/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7953393-bcff-412c-b4b3-b1a39ab1e73f" name="Default Changelist" comment="" />
+      <created>1646827529172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646827529172</updated>
+      <workItem from="1646827533693" duration="6163000" />
+      <workItem from="1646851158723" duration="465000" />
+      <workItem from="1646851703979" duration="1133000" />
+      <workItem from="1646853045054" duration="2245000" />
+      <workItem from="1646913648490" duration="17000" />
+      <workItem from="1646913857792" duration="18000" />
+      <workItem from="1646913907346" duration="2070000" />
+      <workItem from="1646916071385" duration="18689000" />
+      <workItem from="1647339627274" duration="29523000" />
+      <workItem from="1647511437628" duration="2969000" />
+      <workItem from="1647536510684" duration="4333000" />
+      <workItem from="1647595787851" duration="4523000" />
+      <workItem from="1647626718665" duration="26304000" />
+      <workItem from="1647796170221" duration="17079000" />
+      <workItem from="1647944921087" duration="20290000" />
+      <workItem from="1648210995701" duration="19274000" />
+      <workItem from="1648384752478" duration="1923000" />
+      <workItem from="1648388539255" duration="5919000" />
+      <workItem from="1648397798531" duration="1311000" />
+      <workItem from="1648488154391" duration="4040000" />
+      <workItem from="1648498141275" duration="5586000" />
+      <workItem from="1648660356442" duration="246000" />
+      <workItem from="1648724733202" duration="117000" />
+      <workItem from="1648724921488" duration="504000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add: &quot;Rubik Font&quot;">
+      <created>1646928423286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646928423286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor: &quot;Fonts&quot;">
+      <created>1647628786095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647628786095</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add: &quot;App Routing&quot;">
+      <created>1647628859637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647628859637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modify: &quot;custom Mui theme&quot;">
+      <created>1647628931139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647628931139</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modify: &quot;Add Routes Components&quot;">
+      <created>1647628984910</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647628984910</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add: &quot;Custom Tooltip&quot;">
+      <created>1647629005087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629005087</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add: &quot;Custom TextField&quot;">
+      <created>1647629025106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629025106</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add: &quot;Search notes component&quot;">
+      <created>1647629052468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629052468</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add: &quot;My Profile Component&quot;">
+      <created>1647629080525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629080525</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add: &quot;Custom Radio component&quot;">
+      <created>1647629100928</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629100928</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add: &quot;Note Preview component&quot;">
+      <created>1647629136546</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629136546</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add: &quot;Navbar component&quot;">
+      <created>1647629161255</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629161255</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add: &quot;Custom Badge component&quot;">
+      <created>1647629238408</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629238408</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modify: &quot;package.json dependencies&quot;">
+      <created>1647629273376</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629273376</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Modify: &quot;package.json dependencies&quot;">
+      <created>1647629286473</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629286473</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Modify: &quot;index file - provide custom theme&quot;">
+      <created>1647629333338</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629333338</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Modify: &quot;other dependencies&quot;">
+      <created>1647629387438</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1647629387438</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add: &quot;Rubik Font&quot;" />
+    <MESSAGE value="Refactor: &quot;Fonts&quot;" />
+    <MESSAGE value="Add: &quot;App Routing&quot;" />
+    <MESSAGE value="Modify: &quot;custom Mui theme&quot;" />
+    <MESSAGE value="Modify: &quot;Add Routes Components&quot;" />
+    <MESSAGE value="Add: &quot;Custom Tooltip&quot;" />
+    <MESSAGE value="Add: &quot;Custom TextField&quot;" />
+    <MESSAGE value="Add: &quot;Search notes component&quot;" />
+    <MESSAGE value="Add: &quot;My Profile Component&quot;" />
+    <MESSAGE value="Add: &quot;Custom Radio component&quot;" />
+    <MESSAGE value="Add: &quot;Note Preview component&quot;" />
+    <MESSAGE value="Add: &quot;Navbar component&quot;" />
+    <MESSAGE value="Add: &quot;Custom Badge component&quot;" />
+    <MESSAGE value="Modify: &quot;package.json dependencies&quot;" />
+    <MESSAGE value="Modify: &quot;index file - provide custom theme&quot;" />
+    <MESSAGE value="Modify: &quot;other dependencies&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify: &quot;other dependencies&quot;" />
+  </component>
+</project>

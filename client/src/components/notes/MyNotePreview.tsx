@@ -1,25 +1,35 @@
 import React from 'react';
 import {NotePreview} from "./myNoteModel";
-import {NotePreviewStyled} from "./MyNoteStyles";
+import {useNotePreviewStyles} from "./MyNoteStyles";
 import MyNoteTags from "./MyNoteTags";
 import {ThemeOptions, useTheme} from "@mui/material";
 import MyNoteStatus from "./MyNoteStatus";
-import MyNoteDatePicker, {MyNoteDatePickerIcon} from "./MyNoteDatePicker";
+import {MyNoteDatePickerIcon} from "./MyNoteDatePicker";
 import moment from "moment";
 import {date_time_format} from "../moment-dt-config/my-dt-formats";
+import {Link} from "react-router-dom";
+import {motion} from "framer-motion";
+import NoteStore from "../../store/NoteStore"
+import {observer} from "mobx-react"
 
 interface Props {
     note: NotePreview
 }
 
-const MyNotePreview: React.FC<Props> = ({note}) => {
+const MyNotePreview = React.forwardRef<any, Props>(({note}, ref) => {
     const theme = useTheme<ThemeOptions>()
+    const classes = useNotePreviewStyles()
+    const currentNoteId = NoteStore.note?._id
+
+    const setNote = () => NoteStore.get(note._id)
 
     return (
-        <NotePreviewStyled>
+        <div ref={ref} className={classes.root}>
             <MyNoteTags tags={note.tags}/>
             <div style={{marginTop: 6, marginBottom: 12}}>
-                <div style={{color: theme.my.text_700, fontFamily: "Rubik-Medium"}}>{note.title}</div>
+                <div onClick={setNote} className={`bc__note-preview__title${currentNoteId === note._id ? ` active` : ``}`}>
+                    {note.title}
+                </div>
                 <div style={{
                     color: theme.my.text_500,
                     fontFamily: "Rubik-Medium",
@@ -34,10 +44,12 @@ const MyNotePreview: React.FC<Props> = ({note}) => {
                         {moment.unix(parseInt(note.deadline)).format(date_time_format)}
                     </div>
                 </div>
-                <MyNoteStatus status={note.status}/>
+                <Link to={`/app/notes/status/${note.status}`}>
+                    <MyNoteStatus status={note.status}/>
+                </Link>
             </div>
-        </NotePreviewStyled>
+        </div>
     );
-};
+});
 
-export default MyNotePreview;
+export default motion(observer(MyNotePreview))

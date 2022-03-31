@@ -44,7 +44,7 @@ const MyNoteStatus: React.FC<Props> = ({status}) => {
                 lineHeight: 1.2,
                 padding: "4px 8px",
                 fontFamily: "Rubik-SemiBold",
-                fontSize: 13,
+                fontSize: 12,
             }}
         >
             {title}

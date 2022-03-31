@@ -7,17 +7,19 @@ import {
 import MyNavbarItem, {Props as MyNavbarItemProps} from "./MyNavbarItem"
 import {GoChevronDown} from "react-icons/go";
 import {ThemeOptions, useTheme} from "@mui/material";
-import {useLocation} from "react-router-dom";
+import {useLocation, useMatch, useParams} from "react-router-dom";
+import useActive from "./useActive";
 
 interface Props extends MyNavbarItemProps {
     isOpen?: boolean,
-    to: string
+    to: string,
+    query?: boolean
 }
 
-const MyNavbarItemMenu: React.FC<Props> = ({to, children, isOpen = false, ...rest}) => {
+const MyNavbarItemMenu: React.FC<Props> = ({query, to, children, isOpen = false, ...rest}) => {
     const theme: ThemeOptions = useTheme()
     const [isExpanded, setExpanded] = useState(isOpen)
-    const {pathname} = useLocation()
+    const active = useActive(to)
 
     const onStateChange = (e: React.SyntheticEvent, expanded: boolean) => {
         setExpanded(expanded)
@@ -36,7 +38,7 @@ const MyNavbarItemMenu: React.FC<Props> = ({to, children, isOpen = false, ...res
                             size={18} color={theme.my.text_550} style={isExpanded ? {transform: "rotate(-180deg)"} : {}}
                         />
                     )}
-                    defaultActive={!!pathname.match(to)}
+                    defaultActive={active}
                 />
             </NavbarStyledAccordionSummary>
             <NavbarStyledAccordionDetails>
