@@ -1,68 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7953393-bcff-412c-b4b3-b1a39ab1e73f" name="Default Changelist" comment="Modify: &quot;other dependencies&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/notes/notes.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/notes/notes.entities.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/notes/notes.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/notes/notes.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/projects/projects.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/projects/projects.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tags/tags.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tags/tags.service.ts" beforeDir="false" />
+    <list default="true" id="f7953393-bcff-412c-b4b3-b1a39ab1e73f" name="Default Changelist" comment="Reset">
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/accordion/MyAccordion.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/badge/MyBadge.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/markdown-editor/MyMarkDownEditor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/markdown-editor/MyMarkDownEditorStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/markdown-editor/MyMarkDownEditorTextArea.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemChecked.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemMenu.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/useActive.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/note-description-editor/MyNoteDescriptionEditor.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/note-description-editor/MyNoteDescriptionModal.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/note-description-editor/MyNoteDescriptionStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNote.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteCreateDescriptionButton.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteDatePicker.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNotePreview.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteSelect.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteStatus.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteStatusSelect.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteTags.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteTagsSelect.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNotesList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/NyNoteProjectsSelect.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/data/data.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/data/useGetMyNotes.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/myNoteModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile/MyProfile.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile/MyProfileBadge.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile/MyProfileStyles.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyAllNotes.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyNotes.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyTrash.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyWorkSpace.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/search/MySearch.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/search/MySearchTextfield.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/search/my-search.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss-modules/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/DescriptionEditor.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/NoteStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/ProjectsStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/TagsStore.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +94,7 @@
       <workItem from="1648724733202" duration="117000" />
       <workItem from="1648724921488" duration="504000" />
       <workItem from="1648728551928" duration="59000" />
-      <workItem from="1648728693623" duration="52000" />
+      <workItem from="1648728693623" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="Add: &quot;Rubik Font&quot;">
       <created>1646928423286</created>
@@ -275,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647629387438</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Reset">
+      <created>1648728786809</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648728786809</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +258,7 @@
     <MESSAGE value="Modify: &quot;package.json dependencies&quot;" />
     <MESSAGE value="Modify: &quot;index file - provide custom theme&quot;" />
     <MESSAGE value="Modify: &quot;other dependencies&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify: &quot;other dependencies&quot;" />
+    <MESSAGE value="Reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reset" />
   </component>
 </project>
