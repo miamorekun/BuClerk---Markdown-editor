@@ -2,7 +2,7 @@ import React from 'react';
 import {SelectProps} from '@mui/material/Select';
 import {Select, OutlinedInput, OutlinedInputProps} from "@mui/material";
 import {useStyledSelect} from "./MySelectStyles";
-import {GoChevronDown} from "react-icons/go";
+// import {GoChevronDown} from "react-icons/go";
 import {useMyMenuStyles} from "../menu/MyMenuStyles";
 
 interface Props extends SelectProps {
@@ -18,7 +18,7 @@ const MySelect: React.FC<Props> = ({children, outlinedInputProps, onChange, ...r
         <Select
             onChange={onChange}
             input={<OutlinedInput classes={classes} {...outlinedInputProps}/>}
-            IconComponent={GoChevronDown}
+            // IconComponent={GoChevronDown}
             {...rest}
             MenuProps={{classes: menuClasses}}
         >
