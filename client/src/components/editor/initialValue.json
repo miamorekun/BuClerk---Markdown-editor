@@ -1,0 +1,295 @@
+[
+  {
+    "type": "heading",
+    "children": [
+      {
+        "text": "Собственный редактор на основе MarkDown",
+        "bold": true
+      },
+      {
+        "type": "link",
+        "url": "https://docs.slatejs.org/api/nodes/editor#editor.node-editor-editor-at-location-options-greater-than-nodeentry",
+        "children": [
+          {
+            "text": "",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ],
+    "level": 2
+  },
+  {
+    "type": "divider",
+    "level": 3,
+    "children": [
+      {
+        "text": ""
+      },
+      {
+        "type": "link",
+        "url": "https://docs.slatejs.org/api/nodes/editor#editor.node-editor-editor-at-location-options-greater-than-nodeentry",
+        "children": [
+          {
+            "underline": true,
+            "text": ""
+          }
+        ]
+      },
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "children": [
+      {
+        "text": "Первый и самый главный вопрос: "
+      },
+      {
+        "text": "\"Зачем нам это нужно?\",",
+        "bold": true
+      },
+      {
+        "text": "                                      Основными причинами есть то, что предлагаемые интернетом решения в большинстве своем являются крайне не гибкими "
+      },
+      {
+        "text": "( нет того самого ",
+        "italic": true
+      },
+      {
+        "text": "flexibility",
+        "bold": true,
+        "italic": true
+      },
+      {
+        "text": " )",
+        "italic": true
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "children": [
+      {
+        "text": "Основные плюсы разработки собственного редактор ( почему на основе "
+      },
+      {
+        "type": "link",
+        "url": "https://docs.slatejs.org/api/nodes/editor#editor.node-editor-editor-at-location-options-greater-than-nodeentry",
+        "children": [
+          {
+            "text": "markdown",
+            "bold": true,
+            "underline": true
+          }
+        ]
+      },
+      {
+        "text": " разметки объясню позже )"
+      }
+    ]
+  },
+  {
+    "type": "quote",
+    "children": [
+      {
+        "text": "Первое и самое главное - "
+      },
+      {
+        "text": "поддержка",
+        "bold": true
+      },
+      {
+        "text": ". Любой редактор существующий в общем доступе может в любой момент перестать поддерживаться "
+      }
+    ]
+  },
+  {
+    "type": "quote",
+    "children": [
+      {
+        "text": "Второе - "
+      },
+      {
+        "text": "Гибкость",
+        "bold": true
+      },
+      {
+        "text": ". Большинство редактор крайне не гибкие и предлагают однообразное решение и минимум гибкости."
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "children": [
+      {
+        "text": "По данным причинам"
+      },
+      {
+        "text": " ( описаным выше )  ",
+        "italic": true
+      },
+      {
+        "text": "мною было решено сделать собственный редактор на основе редактора "
+      },
+      {
+        "type": "link",
+        "url": "https://docs.slatejs.org/api/nodes/editor#editor.node-editor-editor-at-location-options-greater-than-nodeentry",
+        "children": [
+          {
+            "text": "Slate",
+            "underline": true,
+            "bold": true
+          }
+        ]
+      },
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "children": [
+      {
+        "text": "Пример простого применения Slate ( "
+      },
+      {
+        "text": "code",
+        "bold": true
+      },
+      {
+        "text": " ) "
+      }
+    ]
+  },
+  {
+    "type": "divider",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "code",
+    "children": [
+      {
+        "type": "code-item",
+        "children": [
+          {
+            "text": "// Code Block"
+          }
+        ],
+        "lang": "javascript"
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "isCheckItem(editor: CustomEditor) {"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "    const [match] = Editor.nodes<CustomElement>(editor, {"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "        match: (n) => {"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "            const node = n as CustomElement"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "            return node.type === 'check-list-item'"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "        }"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "    })"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "    return !!match"
+          }
+        ]
+      },
+      {
+        "type": "code-item",
+        "lang": "javascript",
+        "children": [
+          {
+            "text": "},"
+          }
+        ]
+      }
+    ],
+    "lang": "javascript"
+  },
+  {
+    "type": "paragraph",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  }
+]
