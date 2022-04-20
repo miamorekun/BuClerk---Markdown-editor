@@ -30,8 +30,36 @@ declare module '@mui/material/styles' {
             primaryBackground: string,
         }
     }
+    interface Theme {
+        my: {
+            accent_background: string,
+            accent: string,
+            accent_light: string,
+            success: string,
+            success_light: string,
+            tomato: string,
+            tomato_light: string,
+            warning: string,
+            warning_light: string,
+            warning_700: string,
+            warning_200: string,
+            purple: string,
+            red: string,
+            info: string,
+            primary_gradient: {
+                color_1: string,
+                color_2: string
+            },
+            text_700: string,
+            text_600: string,
+            text_550: string,
+            text_500: string,
+            text_300: string,
+            text_100: string,
+            primaryBackground: string,
+        }
+    }
 }
-
 
 export const themeLight = createTheme({
     my: {
