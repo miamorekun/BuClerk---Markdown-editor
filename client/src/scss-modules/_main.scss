@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
 }
 
-.bc-app {
+.bc-markdown-editor {
   position: absolute;
   top: 0;
   left: 0;
@@ -18,5 +18,9 @@ body {
 a {
   text-decoration: none;
   display: inline-block;
+}
+
+::selection {
+  background: #dbe7ff;
 }
 
